@@ -1,0 +1,37 @@
+.header {
+  padding-top: 33px;
+  padding-bottom: 70px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  gap: 60px;
+}
+
+.header__nav-link {
+  display: block;
+
+  color: #121212;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__nav-link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 961px) {
+  .header__nav {
+    display: none;
+  }
+}

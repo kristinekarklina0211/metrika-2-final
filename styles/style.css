@@ -1,0 +1,140 @@
+@import "./buttons.css";
+@import "./header.css";
+@import "./burger.css";
+@import "./hero.css";
+@import "./about.css";
+@import "./projects.css";
+@import "./services.css";
+@import "./popup.css";
+@import "./order.css";
+@import "./input.css";
+@import "./reviews.css";
+@import "./gallery.css";
+@import "./contacts.css";
+@import "./footer.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Manrope", sans-serif;
+  color: #121212;
+}
+
+.body_fixed {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Text styles */
+
+h1,
+h2,
+h3,
+p,
+a,
+div {
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  margin-bottom: 30px;
+
+  max-width: 956px;
+
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+
+h2 {
+  margin-bottom: 30px;
+
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+/* Header (header.css) */
+
+/* Hero (hero.css) */
+
+/* About (about.css) */
+
+/* Projects (projects.css) */
+
+/* Services (services.css) */
+
+/* Fullscreen section (fullscreen.css) */
+
+/* Contacts (contacts.css) */
+
+/* Footer (footer.css) */
+
+@media (max-width: 961px) {
+  .container {
+    width: 100%;
+    padding: 0 17px 0 15px;
+  }
+
+  h1 {
+    max-width: 802px;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+  }
+
+  h3 {
+    font-size: 25px;
+    letter-spacing: -0.75px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 12px 0 13px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+    max-width: 348px;
+
+    font-size: 30px;
+    line-height: 31.62px;
+    letter-spacing: -0.9px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.42px;
+  }
+
+  h3 {
+    font-size: 18px;
+    letter-spacing: -0.54px;
+  }
+}

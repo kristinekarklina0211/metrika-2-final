@@ -1,0 +1,42 @@
+.about {
+  margin-bottom: 150px;
+}
+
+.about__text {
+  margin-left: 3px;
+  margin-bottom: 30px;
+
+  max-width: 1048px;
+
+  font-size: 45px;
+  line-height: normal;
+  letter-spacing: -1.35px;
+}
+
+@media (max-width: 961px) {
+  .about {
+    margin-bottom: 120px;
+  }
+
+  .about__text {
+    margin-left: 5px;
+
+    max-width: 690px;
+
+    font-size: 35px;
+    letter-spacing: -1.05px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .about__text {
+    max-width: 346px;
+
+    font-size: 22px;
+    letter-spacing: -0.66px;
+  }
+}

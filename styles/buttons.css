@@ -1,0 +1,73 @@
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #ad1818;
+  color: #fff;
+  
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+
+  text-align: center;
+  font-size: 30px;
+  line-height: normal;
+  text-decoration: none;
+  letter-spacing: -0.9px;
+}
+
+.button_full-width {
+  display: block;
+  width: 100%;
+  padding: 56px 0;
+}
+
+.button_small {
+  padding: 20px 40px;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+}
+
+.button_inverted {
+  background-color: #fff;
+  color: #ad1818;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #ad1818;
+}
+
+.button_inverted:hover {
+  background-color: #ad1818;
+  color: #fff;
+}
+
+.about__btn {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .button {
+    border-radius: 3.8px;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+  }
+  
+  .button_full-width {
+    padding: 37px 0;
+  }
+  
+  .button_small {
+    padding: 15px 30px;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+
+  .button_send {
+    padding: 20px 40px;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+  }
+}

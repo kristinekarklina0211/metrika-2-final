@@ -1,0 +1,42 @@
+.order__title {
+  margin-bottom: 4px;
+
+  text-align: center;
+
+  font-size: 45px;
+  line-height: normal;
+  letter-spacing: -1.35px;
+}
+
+.order__subtitle {
+  margin-bottom: 60px;
+
+  text-align: center;
+
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: -0.54px;
+}
+
+.order__input {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+  .order__title {
+    margin-bottom: 11px;
+
+    font-size: 25px;
+    letter-spacing: -0.75px;
+  }
+
+  .order__subtitle {
+    margin-bottom: 70px;
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+
+  .order__input {
+    margin-bottom: 60px;
+  }
+}
